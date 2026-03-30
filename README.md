@@ -47,8 +47,8 @@ A simple, interactive movie recommendation system built with Streamlit. This app
 
 ## File Structure
 - `main.py` — Streamlit app source code
-- `movies.pkl` — Pickle file containing movie data (Pandas DataFrame with at least a 'title' column)
-- `similarity.pkl` — Pickle file containing similarity matrix (2D array or DataFrame)
+- `movies.pkl` — Pickle file containing movie data (Pandas DataFrame with at least a 'title' column) pkl Files are large file github repo dont support
+- `similarity.pkl` — Pickle file containing similarity matrix (2D array or DataFrame) pkl Files are large file github repo dont support 
 
 ## Notes
 - If you don't have the `.pkl` files, you will need to generate them using your own dataset and similarity computation logic.
