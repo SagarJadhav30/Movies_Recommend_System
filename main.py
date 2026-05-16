@@ -7,7 +7,7 @@ import pickle
 # ------------------------------- 
 def load_data(): 
     try:
-        with open('movies.pkl', 'rb') as f:
+        with open('movies.pkl', 'rb') as f: 
             movies = pickle.load(f)
 
         # If it's already a DataFrame → use directly
