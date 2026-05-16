@@ -5,7 +5,7 @@ import pickle
 # -------------------------------
 # Load Data Safely
 # -------------------------------
-def load_data():
+def load_data(): 
     try:
         with open('movies.pkl', 'rb') as f:
             movies = pickle.load(f)
